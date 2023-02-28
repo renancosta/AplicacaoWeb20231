@@ -11,8 +11,8 @@
             <button onclick="exibirBemVindo()">Clique aqui!</button>
         </form>
         <form>
-            Número 1 <input type="text" id="num1"><br>
-            Número 2 <input type="text" id="num2"><br>
+            Número 1 <input type="text" id="num1" onkeypress="tratamentoNumero(num1.value)"><br>
+            Número 2 <input type="text" id="num2" onchange="tratamentoNumero(num2.value)"><br>
             <button onclick="somaNumeros()">Somar</button>
         </form>
     </body>
