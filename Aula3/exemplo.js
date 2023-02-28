@@ -1,7 +1,7 @@
 function exibirBemVindo(){
-    var valor1 = document.getElementById("valor1").value;
-    var nome2;
-    nome2 = "Renan Costa";
-    alert("Olá mundo, "+valor1);
+    var nome = document.getElementById("nome").value;
+    var sobrenome = document.getElementById("sobrenome").value;
+    var nomeCompleto = nome+" "+sobrenome;
+    alert("Olá mundo, "+nomeCompleto);
 }
 
