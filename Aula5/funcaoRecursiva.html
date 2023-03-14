@@ -1,0 +1,15 @@
+<html> 
+   <head> 
+     <meta charset="UTF-8"> 
+     <script> 
+        var numero = window.prompt("Informe um número para cálculo do fatorial"); 
+        alert(fatorial(numero)); 
+        function fatorial(n){ 
+          if ((n == 0) || (n == 1)) 
+             return 1; 
+          else 
+             return (n * fatorial(n - 1)); 
+        } 
+      </script> 
+   </head> 
+</html>
